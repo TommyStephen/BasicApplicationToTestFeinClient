@@ -16,4 +16,8 @@ public class BasicAppService {
 	public String getDistrict() {
 		return "Calicut";
 	}
+	
+	public String greet(String name) {
+		return "Hello "+name;
+	}
 }
